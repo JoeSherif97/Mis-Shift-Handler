@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Mis-Shift Extension",
+  "version": "1.2.0",
+  "description": "Corrects miswritten Arabic/English text due to keyboard layout issues",
+  "icons": {
+    "16": "Icons/favicon-16x16.png",
+    "48": "Icons/android-icon-48x48.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "Icons/favicon-16x16.png"
+  },
+  "permissions": ["activeTab", "storage","clipboardRead"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

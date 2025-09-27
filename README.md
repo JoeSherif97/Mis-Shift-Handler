@@ -102,6 +102,10 @@ The extension uses a comprehensive mapping system covering:
 
 ## Examples
 
+### Interface
+
+<img width="324" height="400" alt="image" src="https://github.com/user-attachments/assets/bb8e4968-32a6-470a-bd5a-395b9f3465ab" />
+
 ### Common Use Cases
 
 #### English to Arabic Conversion:
